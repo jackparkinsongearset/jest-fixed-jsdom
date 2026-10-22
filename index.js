@@ -22,6 +22,7 @@ class FixedJSDOMEnvironment extends JSDOMEnvironment {
     this.global.ReadableStream = ReadableStream
 
     this.global.Blob = Blob
+    this.global.File = File
     this.global.Headers = Headers
     this.global.FormData = FormData
     this.global.Request = Request
