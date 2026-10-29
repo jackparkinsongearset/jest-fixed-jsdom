@@ -1,4 +1,5 @@
 const JSDOMEnvironment = require('jest-environment-jsdom').default
+const { File } = require('node:buffer')
 
 class FixedJSDOMEnvironment extends JSDOMEnvironment {
   constructor(...args) {
